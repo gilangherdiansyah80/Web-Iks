@@ -1,0 +1,88 @@
+.image_kepengurusan {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+.hapus-berita {
+    padding: 5px;
+}
+
+.hapus-berita button {
+    width: 50px;
+    border-radius: 10px;
+}
+.edit-berita button {
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.edit-keuangan {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-keuangan input {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.edit-keuangan textarea {
+    margin-bottom: 15px;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.edit-keuangan button {
+    margin-bottom: 15px;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.pemasukan_child {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.pemasukan_child input {
+    height: 35px;
+}
+
+.pengeluaran_child {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.pengeluaran_child input {
+    height: 35px;
+}
+
+.gambar_child {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-keterangan {
+    height: 35px;
+}
+
+.saldo-awal-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.saldo-awal-container input{
+    height: 35px;
+}

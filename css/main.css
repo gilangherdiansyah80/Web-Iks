@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    padding: 10px;
+    background-color: rgba(208, 208, 208, 0.966);
+  }
+
+  .header-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .image {
+    width: 60px;
+  }
+
+  #hamburger {
+    font-size: 30px;
+    width: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+  }
+
+  #hamburger-menu {
+    background-color: white;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 10px;
+  }
+
+  .menu-bar {
+    margin-left: -20px;
+  }
+
+  .menu-list {
+    list-style-type: none;
+  }
+
+  .menu-list a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu-list:hover {
+    color: red;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgb(190, 190, 190);
+    border-radius: 10px;
+    width: 330px;
+  }
+
+  .nav-item {
+    margin-left: -25px;
+  }
+  
+  .main-content {
+    padding: 10px;
+  }
+
+  .container-card {
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    box-shadow: 0 0 5px 2px black;
+  }
+
+  button.buttonMasukKeluar {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+  }
+
+  .user-name {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #userName {
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .password {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #password {
+    height: 50px;
+    border-radius: 10px;
+    padding: 5px;
+  }
+
+  .submit {
+    width: 100%
+  }
+  
+  #buttonLogin {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  #loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
